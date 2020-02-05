@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+</head>
+<body>
+    <h1>Software Order Form</h1> <br> 
+    <form >
+        <fieldset>
+          <legend>License details:</legend>
+          <ul>
+          <li> Email: <input type="text" name="email" value=""> </li> 
+          <li> Website: <input type="text" name="website" value="" placeholder="http://www.example.com/"> </li> 
+          <li> Number of licenses: <input type="text" name="nmb" value="" placeholder="how many to buy (0-10)"> </li> 
+        </ul>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Billing details:</legend>
+            <ul>
+            <li> Name: <input type="text" name="name" value="" placeholder="First/Last" required> </li>
+            <li> Address: <textarea name="address" cols="30" rows="4" placeholder="House number,street,city,state" required></textarea> </li> 
+            <li> Postal code: <input type="text" name="code" value="" placeholder="Post code or zip code" required> </li> 
+            <li> Country: <select name="country" >
+                          <option value="Austra">Austria</option>
+                          <option value="Finland">Finland</option>
+                          <option value="France">France</option>
+                          <option value="England">England</option>
+                          <option value="Skotland">Skotland</option>
+                          </select> 
+          </li> 
+            <li> Phone (optional): <input type="text" name="phone" value="" placeholder="Include county prefix" > </li>
+          </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Payment details:</legend>
+            <ul>
+            <li> Card number: <input type="text" name="email" value="" placeholder="As shown on the front of your card" required> </li> 
+            <li> CVV code: <input type="text" name="website" value="" placeholder="3-digit number on back of your card" required> </li> 
+            <li> Expiry date: <input type="text" name="nmb" value="" placeholder="YYYY-MM" required> </li> 
+          </ul>
+          </fieldset>
+
+           <button type="submit" name="Send my order" value="submit" >Send my order </button>
+        
+      </form>
+      
+
+    
+</body>
+</html>
